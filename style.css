@@ -203,10 +203,13 @@ nav button {
     padding-right: 6rem;
     display: flex;
     max-width: 100%;
-    padding: 2vw;
+    /* padding: 1vw; */
     box-sizing: border-box;
     align-items: center;
     text-align: center;
+    margin-top: -8vw;
+    margin-bottom: -8vw;
+ 
 }
 
 .second .secImg img {
@@ -252,6 +255,9 @@ nav button {
         padding: 4vw;
         text-align:center;
         align-items: center;
+        margin-top: 1vw;
+        margin-bottom: -8vw;
+
     }
 
     .second .secImg video {
@@ -336,17 +342,20 @@ nav button {
 }
 
 .fourth-h2 {
-    margin-bottom: 8px;
     font-weight: 900;
     line-height: 1.1;
-    margin-right: 6%;
     font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 .fourth-p {
     font-weight: 400;
     font-size: clamp(1rem, 2.5vw, 2rem);
-    margin-bottom: 216px;
+}
+
+.side-text{
+    margin: 7px;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
 }
 
 .fourth .secImg {
@@ -423,42 +432,45 @@ nav button {
     .fourth .secImg{
         width: 80vw;
         margin-bottom: 5rem;
+        margin-right: 3rem;
     }
 
     .overlay-box{
         left: 5%;
         transform: translate(0%, -160%);
-        width: 20rem;
-        align-items: center;
-        padding: 0.1rem .7rem;
+        width: 40vw;
+        /* align-items:center; */
+        margin: 6 auto;
+
+        
+    }
+
+    .overlay-box-image{
+        height: auto;
+        width: 3rem;
+        padding-left: 1rem;
+        padding-right: 0rem;
     }
 
     .text-box{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5em;
+        margin-right: -1rem;
     }
 
-    .fourth-h2{
-        font-size: 2rem;
-        margin: 0;
-        font-weight: 700;
-    }
-
-    .fourth-p{
-        margin: 1rem 0 0;
-        font-size: 1.125rem;
-        font-weight: 400;
+    .side-text{
+        margin-left: 71px;
+        padding-bottom: 2px;
     }
 
     .downloading{
-        width: 2rem;
-    }*/
+        padding-right: 1px;
+    }
 } 
 
 
 .faq h2 {
     display: flex;
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 5vw, 3rem); 
     font-weight: 900;
     margin-bottom: 20px;
     width: fit-content;
