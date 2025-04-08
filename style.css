@@ -48,7 +48,6 @@ nav button {
     z-index: 10;
 }
 
-
 .hero {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 62px);
@@ -175,15 +174,15 @@ nav button {
 }
 
 
-@media(max-width: 768px){
-    .first{
+@media(max-width: 768px) {
+    .first {
         flex-direction: column;
         text-align: center;
         margin-left: 0;
         padding: 20px;
     }
 
-    .first-h1{
+    .first-h1 {
         font-size: 6vw;
     }
 
@@ -191,7 +190,7 @@ nav button {
         font-size: 4vw;
     }
 
-    .secImg img, 
+    .secImg img,
     .secImg video {
         width: 100%;
         margin: 0 auto;
@@ -203,13 +202,11 @@ nav button {
     padding-right: 6rem;
     display: flex;
     max-width: 100%;
-    /* padding: 1vw; */
     box-sizing: border-box;
     align-items: center;
     text-align: center;
     margin-top: -8vw;
     margin-bottom: -8vw;
- 
 }
 
 .second .secImg img {
@@ -229,10 +226,9 @@ nav button {
     transform: translate(-50%, -50%);
     z-index: 1;
     height: auto;
-    object-fit:contain;
+    object-fit: contain;
     width: 63%;
     max-width: 500px;
-    
 }
 
 .second-h1 {
@@ -249,15 +245,14 @@ nav button {
     margin-right: 50px;
 }
 
-@media (max-width: 768px){
-    .second{
+@media (max-width: 768px) {
+    .second {
         flex-direction: column-reverse;
         padding: 4vw;
-        text-align:center;
+        text-align: center;
         align-items: center;
         margin-top: 1vw;
         margin-bottom: -8vw;
-
     }
 
     .second .secImg video {
@@ -265,14 +260,14 @@ nav button {
         max-width: 89%;
         left: 50%;
         top: 38%;
-        object-fit: contain;    
+        object-fit: contain;
     }
 
-    .second-h1{
+    .second-h1 {
         font-size: 6vw;
     }
 
-    .second-h2{
+    .second-h2 {
         font-size: 4vw;
         margin-right: 0;
     }
@@ -307,16 +302,16 @@ nav button {
     margin-right: 10%;
 }
 
-@media(max-width: 768px){
-    .third{
-        flex-direction:column;
+@media(max-width: 768px) {
+    .third {
+        flex-direction: column;
         text-align: center;
         margin-left: 0;
         padding: 20px;
         align-items: center;
     }
 
-    .third-h1{
+    .third-h1 {
         font-size: 6vw;
         margin-left: 0;
         padding-bottom: 10px;
@@ -327,7 +322,7 @@ nav button {
         margin-left: 0;
     }
 
-    .secImg img{
+    .secImg img {
         width: 100%;
         margin: 0 auto;
         padding-left: 9%;
@@ -352,7 +347,7 @@ nav button {
     font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-.side-text{
+.side-text {
     margin: 7px;
     margin-right: 6rem;
     margin-bottom: 2rem;
@@ -384,13 +379,13 @@ nav button {
 .overlay-box img {
     height: auto;
     width: 55px;
-   
+
 }
 
 .text-box {
     flex-direction: column;
     justify-content: center;
-    margin-left: -378px;;
+    margin-left: -378px;
     gap: 0.3rem;
     align-items: center;
     background-color: black;
@@ -410,7 +405,6 @@ nav button {
 
 .downloading {
     background-image: url('https://web.archive.org/web/20231116163737im_/https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
-
     outline: 1px solid rgb(0, 0, 0);
     width: 3rem;
     height: 3rem;
@@ -420,8 +414,8 @@ nav button {
     margin-left: auto;
 }
 
- @media (max-width: 768px){
-    .fourth{
+@media (max-width: 768px) {
+    .fourth {
         flex-direction: column-reverse;
         padding-bottom: 0;
         align-items: center;
@@ -429,48 +423,45 @@ nav button {
         padding: 1vw;
     }
 
-    .fourth .secImg{
+    .fourth .secImg {
         width: 80vw;
         margin-bottom: 5rem;
         margin-right: 3rem;
     }
 
-    .overlay-box{
+    .overlay-box {
         left: 5%;
         transform: translate(0%, -160%);
         width: 40vw;
-        /* align-items:center; */
         margin: 6 auto;
-
-        
     }
 
-    .overlay-box-image{
+    .overlay-box-image {
         height: auto;
         width: 3rem;
         padding-left: 1rem;
         padding-right: 0rem;
     }
 
-    .text-box{
+    .text-box {
         margin-left: 0.5em;
         margin-right: -1rem;
     }
 
-    .side-text{
+    .side-text {
         margin-left: 71px;
         padding-bottom: 2px;
     }
 
-    .downloading{
+    .downloading {
         padding-right: 1px;
     }
-} 
+}
 
 
 .faq h2 {
     display: flex;
-    font-size: clamp(1.5rem, 5vw, 3rem); 
+    font-size: clamp(1.5rem, 5vw, 3rem);
     font-weight: 900;
     margin-bottom: 20px;
     width: fit-content;
@@ -527,13 +518,13 @@ footer {
     color: white;
 }
 
-footer .questions{
+footer .questions {
     padding: 34px 0;
     color: red;
-    
+
 }
 
-.footer-item a{
+.footer-item a {
     color: rgba(255, 255, 255, 0.7);
     font-size: 12px;
     font-weight: 400;
@@ -546,20 +537,20 @@ footer .questions{
     margin-bottom: 20px;
 }
 
-.one{
+.one {
     padding-left: 10px;
 }
 
-.two{
+.two {
     padding-left: -5px;
 
 }
 
 
-.three{
+.three {
     padding-left: -8px;
 }
 
-.four{
+.four {
     padding-left: 78px;
 }
